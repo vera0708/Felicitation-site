@@ -1,12 +1,16 @@
+import { useContext } from "react";
 import { useState, createContext } from "react";
+import { useImg } from "../hucks/useImg";
+import { holidaysContext } from "./holidaysContext";
 
 export const imgContext = createContext({})
 
 export const ImgContextProvider = ({ children }) => {
-    const [img, setImg] = useState('')
+    const { holiday } = useContext(holidaysContext)
+    const { urlImg } = useImg(holiday)
 
     return (
-        <imgContext.Provider value={{ img, setImg }}>
+        <imgContext.Provider value={{ urlImg }}>
             {children}
         </imgContext.Provider>
     )
