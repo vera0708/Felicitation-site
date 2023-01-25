@@ -1,5 +1,12 @@
-const ImageCard = (props) => (
-    <img src={props.img} alt="Фон открытки" width={840} height={520} />
-)
+import { useContext } from "react"
+import { imgContext } from "../../../context/imgContextProvider"
+
+const ImageCard = (props) => {
+    const img = useContext(imgContext)
+    console.log(img)
+    return (
+        <img src={props.img} alt="Фон открытки" width={840} height={520} />
+    )
+}
 
 export default ImageCard
