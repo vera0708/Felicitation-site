@@ -1,11 +1,12 @@
 import { useState, createContext } from "react";
-import { useHolidays } from "../hucks/useHolidays";
+import { URI_API } from "../const/const";
+import { useFetch } from "../hucks/useFetch";
 
 export const holidaysContext = createContext({})
 
 export const HolidaysContextProvider = ({ children }) => {
     const [holiday, setHoliday] = useState('');
-    const [holidays] = useHolidays();
+    const [holidays] = useFetch(URI_API);
 
     const changeHoliday = title => {
         setHoliday(title)
