@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper {
@@ -11,6 +12,8 @@
 }
 
 .image {
+    min-width: 100%;
+    height: auto;
     position: relative;
     margin: auto;
     display: flex;

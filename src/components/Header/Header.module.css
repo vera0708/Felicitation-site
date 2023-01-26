@@ -4,6 +4,8 @@
     background: #FFFFFF;
     box-shadow: 0px 1px 20px rgba(72, 3, 38, 0.07);
     padding: 28px 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f1fffc;
 }
 
 .wrapper {
@@ -27,6 +29,8 @@ button {
     font-size: 18px;
     background-color: #00c78b;
     color: #FFFFFF;
+    cursor: pointer;
+    padding: 0;
 }
 
 @media (max-width: 1024px) {

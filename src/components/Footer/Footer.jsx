@@ -10,8 +10,8 @@ const Footer = () => (
         <Container>
             <div className={style.wrapper}>
                 <div className={style.contacts}>
-                    <p>Design: <a href='https://t.me/Mrshamalloww' target="_blank">Anastasia Ilina</a></p>
-                    <p>Сoder: <a href='https://t.me/Vera_07_08' target="_blank">Vera Deeva</a></p>
+                    <p>Design: <a href='https://t.me/Mrshamalloww' target="_blank" rel="noreferrer">Anastasia Ilina</a></p>
+                    <p>Сoder: <a href='https://t.me/Vera_07_08' target="_blank" rel="noreferrer">Vera Deeva</a></p>
                     <p>© HBCard, 2022</p>
                 </div>
                 <ul className={style.social}>
