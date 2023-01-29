@@ -33,6 +33,10 @@ button {
     padding: 0;
 }
 
+.button:disabled {
+    background-color: #7d8381;
+}
+
 @media (max-width: 1024px) {
     .contawrapperiner {
         flex-direction: column;
@@ -50,7 +54,7 @@ button {
 }
 
 @media (max-width: 1024px) {
-    .contawrapperiner {
+    .wrapper {
         gap: 20px;
     }
 
