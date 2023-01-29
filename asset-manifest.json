@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Felicitation-site/static/css/main.06b7b1eb.css",
+    "main.js": "/Felicitation-site/static/js/main.81f3fa02.js",
+    "static/media/card-bg.jpg": "/Felicitation-site/static/media/card-bg.4dd356a06e9bd5e2a66a.jpg",
+    "static/media/vk.svg": "/Felicitation-site/static/media/vk.586c1a04ceb798cfeab845110fa5e65d.svg",
+    "static/media/tg.svg": "/Felicitation-site/static/media/tg.ebab77870ab623fae688a4e38e7db3e3.svg",
+    "static/media/pinterest.svg": "/Felicitation-site/static/media/pinterest.31dcf82b63b72360ef1c32ba5e2f05fd.svg",
+    "static/media/stumbleupon.svg": "/Felicitation-site/static/media/stumbleupon.1f252d0360122cce991d1354df464909.svg",
+    "index.html": "/Felicitation-site/index.html",
+    "main.06b7b1eb.css.map": "/Felicitation-site/static/css/main.06b7b1eb.css.map",
+    "main.81f3fa02.js.map": "/Felicitation-site/static/js/main.81f3fa02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06b7b1eb.css",
+    "static/js/main.81f3fa02.js"
+  ]
+}
