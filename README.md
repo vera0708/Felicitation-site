@@ -1,5 +1,7 @@
 # Felicitation site
 
+[Live demo](https://vera0708.github.io/Felicitation-site/)
+
 A web app for making greeting cards.
 
 [screen-capture (1).webm](https://user-images.githubusercontent.com/111682119/215327684-aa1a3488-8161-4284-aa22-4f47109efdcc.webm)
@@ -20,3 +22,5 @@ A website built with
 - Redux (redux toolkit) for storing data
 
 Made by Vera Deeva in intensive.
+
+Deployed with Github actions (https://vera0708.github.io/Felicitation-site)
