@@ -10,19 +10,13 @@ export const fetchHolidays = createAsyncThunk(
     }
 )
 
-
 export const holidaysSlise = createSlice({
     name: 'holidays',
     initialState: {
         holidays: {},
-        holiday: '',
         loading: ''
     },
-    reducers: {
-        setHoliday(state, action) {
-            state.holiday = action.payload;
-        }
-    },
+    reducers: {},
     extraReducers: {
         [fetchHolidays.pending]: (state) => {
             state.loading = 'loading'

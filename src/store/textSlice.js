@@ -11,6 +11,15 @@ export const fetchText = createAsyncThunk(
     }
 );
 
+export const fetchTextid = createAsyncThunk(
+    'text/fetchTextid',
+    async (id) => {
+        const res = await fetch(`${URI_API}text/${id}`)
+        const data = await res.json()
+        return data
+    }
+);
+
 const textSlice = createSlice({
     name: 'text',
     initialState: {
@@ -31,6 +40,21 @@ const textSlice = createSlice({
             state.idText = action.payload.idText;
         },
         [fetchText.rejected]: state => {
+            state.loading = 'failed';
+            state.text = '';
+            state.idText = '';
+        },
+        [fetchTextid.pending]: state => {
+            state.loading = 'loading';
+            state.text = '';
+            state.idText = '';
+        },
+        [fetchTextid.fulfilled]: (state, action) => {
+            state.loading = 'success';
+            state.text = action.payload.text;
+            state.idText = action.payload.idText;
+        },
+        [fetchTextid.rejected]: state => {
             state.loading = 'failed';
             state.text = '';
             state.idText = '';
