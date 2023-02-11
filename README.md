@@ -20,6 +20,7 @@ A web app for making greeting cards.
 A website built with 
 - React.js + css modules
 - Redux (redux toolkit) for storing data
+- Routes for two pages and possibility to share
 
 Made by Vera Deeva in intensive.
 
